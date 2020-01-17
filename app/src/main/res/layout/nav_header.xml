@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@color/colorAccent"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:id="@+id/logout"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onClickLogout"
+        android:text="Logout"
+        android:textSize="12dp"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/sophie"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Aida Zhumabekova"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+
+
+</LinearLayout>

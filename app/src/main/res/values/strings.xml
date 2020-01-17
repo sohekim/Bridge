@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BRIDGE</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="signup_btn">Sign Up</string>
+    <string name="signin_btn">Already have an account? Sign in here</string>
+    <string name="signup_txt">Not registered? Sign up here</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="270dp"
+    android:layout_gravity="center"
+    android:background="@color/colorlighter"
+    android:layout_margin="15dp">
+
+
+
+    <Button
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:id="@+id/close_popup_btn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/close"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's request an order!"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Menu"
+        android:layout_marginHorizontal="25dp"
+        android:textSize="7pt" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Special Request"
+        android:layout_marginHorizontal="25dp"
+        android:textSize="7pt"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_marginHorizontal="25dp"
+        android:layout_height="wrap_content"
+        android:text="Request Order"
+        android:id="@+id/request_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="6pt"/>
+
+
+
+</LinearLayout>
